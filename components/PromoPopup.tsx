@@ -108,7 +108,7 @@ export default function PromoPopup() {
           <div style={{
             background: 'linear-gradient(135deg, #062e48 0%, #0b456b 100%)',
             padding: '24px 24px 20px',
-            textCenter: 'center',
+            textAlign: 'center', // Fixed: Changed from textCenter to textAlign
             color: '#fff'
           }}>
             <span style={{
