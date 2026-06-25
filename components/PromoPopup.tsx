@@ -16,7 +16,7 @@ const TOP_PRODUCTS = [
     id: 'aquagrand-copper',
     name: 'Aquagrand Plus Copper RO',
     tag: 'Best Seller',
-    image: '/kent_ro_services.png', // Swap out with your dedicated product asset path
+    image: '/kent_ro_services.png',
     price: '₹7,999',
     originalPrice: '₹12,500',
     waText: 'Hi, I am interested in the Aquagrand Plus Copper RO top-seller model.'
@@ -25,7 +25,7 @@ const TOP_PRODUCTS = [
     id: 'aquagrand-active-copper',
     name: 'Aquagrand Eco Mineral RO',
     tag: 'Top Rated',
-    image: '/kent_ro_services.png', // Swap out with your dedicated product asset path
+    image: '/kent_ro_services.png',
     price: '₹6,499',
     originalPrice: '₹9,999',
     waText: 'Hi, I am interested in the Aquagrand Eco Mineral RO model.'
@@ -108,7 +108,7 @@ export default function PromoPopup() {
           <div style={{
             background: 'linear-gradient(135deg, #062e48 0%, #0b456b 100%)',
             padding: '24px 24px 20px',
-            textAlign: 'center', // Fixed: Changed from textCenter to textAlign
+            textAlign: 'center',
             color: '#fff'
           }}>
             <span style={{
@@ -235,7 +235,7 @@ export default function PromoPopup() {
             </a>
           </div>
 
-          {/* ── High-Contrast Close Button ── */}
+          {/* ── Close Button ── */}
           <button
             onClick={close}
             aria-label="Close modal preview window"
